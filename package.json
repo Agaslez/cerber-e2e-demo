@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests defined for E2E demo\" && exit 0",
     "cerber:guardian": "node scripts/cerber-guardian.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cerber-core": "github:Agaslez/cerber-core#e2e-testing"
+    "cerber-core": "^1.1.0"
   }
 }

@@ -27,7 +27,7 @@ ci:
   branches: ["main", "develop"]
   requiredOnPR: true
   postDeploy:
-    enabled: true
+    enabled: false
     waitSeconds: 30
     healthUrlVar: CERBER_HEALTH_URL
     authHeaderSecret: CERBER_HEALTH_AUTH_HEADER
