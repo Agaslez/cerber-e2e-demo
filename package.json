@@ -1,0 +1,16 @@
+{
+  "name": "cerber-e2e-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cerber:guardian": "node scripts/cerber-guardian.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cerber-core": "file:../cerber-core-github/cerber-core-1.1.0.tgz"
+  }
+}
