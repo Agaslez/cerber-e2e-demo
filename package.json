@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cerber-core": "file:../cerber-core-github/cerber-core-1.1.0.tgz"
+    "cerber-core": "github:Agaslez/cerber-core#e2e-testing"
   }
 }
