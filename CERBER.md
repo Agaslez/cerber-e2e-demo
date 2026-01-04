@@ -10,11 +10,11 @@ mode: solo
 schema:
   enabled: true
   mode: template_only
-  file: BACKEND_SCHEMA.ts
+  file: BACKEND_SCHEMA.mjs
 
 guardian:
   enabled: true
-  schemaFile: BACKEND_SCHEMA.ts
+  schemaFile: BACKEND_SCHEMA.mjs
   hook: husky
   approvalsTag: "// ARCHITECT_APPROVED"
 
