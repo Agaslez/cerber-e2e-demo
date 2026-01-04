@@ -1,21 +1,26 @@
 # Cerber Contract
 
-This is the E2E test repository for Cerber v1.1.0.
+This is the E2E test repository for Cerber v1.1.3.
 
 ## CERBER_CONTRACT
 
 ```yaml
-mode: team
+mode: solo
+
+schema:
+  enabled: true
+  mode: template_only
+  file: BACKEND_SCHEMA.ts
 
 guardian:
   enabled: true
   schemaFile: BACKEND_SCHEMA.ts
   hook: husky
-  approvalsTag: approved-by-team
+  approvalsTag: "// ARCHITECT_APPROVED"
 
 health:
   enabled: true
-  endpoint: /health
+  endpoint: /api/health
   healthUrlVar: CERBER_HEALTH_URL
   failOn:
     critical: true
@@ -31,10 +36,6 @@ ci:
     waitSeconds: 30
     healthUrlVar: CERBER_HEALTH_URL
     authHeaderSecret: CERBER_HEALTH_AUTH_HEADER
-
-team:
-  schemaOwners: ["@agataslezak"]
-  reviewRequired: true
 ```
 
 ## Project Description

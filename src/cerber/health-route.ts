@@ -47,4 +47,4 @@ export async function healthHandler(req: any, res: any) {
 
 // Usage in your server:
 // import { healthHandler } from './cerber/health-route.js';
-// app.get('/health', healthHandler);
+// app.get('/api/health', healthHandler);

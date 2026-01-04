@@ -5,6 +5,25 @@ import { CerberCheck, makeIssue } from 'cerber-core';
 
 export const checks: Record<string, CerberCheck> = {
   database: async () => {
-    return [];
+    // TODO: Implement your database health check
+    // Example:
+    // try {
+    //   await db.query('SELECT 1');
+    //   return [];
+    // } catch (err) {
+    //   return [
+    //     makeIssue({
+    //       code: 'DB_CONNECTION_FAILED',
+    //       component: 'database',
+    //       diagnosis: 'Cannot connect to database',
+    //       rootCause: 'Database server is down or unreachable',
+    //       fix: 'Check DATABASE_URL and verify DB is running',
+    //       severity: 'critical',
+    //       durationMs: 0
+    //     })
+    //   ];
+    // }
+
+    return []; // Placeholder - implement your check
   },
 };

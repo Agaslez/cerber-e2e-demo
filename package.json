@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cerber-core": "^1.1.0"
+    "cerber-core": "^1.1.3"
   }
 }
